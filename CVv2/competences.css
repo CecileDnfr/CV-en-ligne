@@ -1,0 +1,86 @@
+.graphisme img{
+
+	width: 60px;
+	height: auto;
+
+	float: left;
+	padding: 30px;
+}
+
+.graphisme li {
+
+	list-style: none;
+}
+
+
+#premiere {
+
+	height: 55px;
+	width: auto;
+}
+
+.graphisme {
+
+	margin-bottom: 150px;
+}
+
+#office {
+
+	width: 200px;
+	height:auto;
+	padding-left: 70px;
+}
+
+.cms img{
+
+	width: 60px;
+	height: auto;
+	float: left;
+	padding-left: 70px;
+
+}
+
+.cms li{
+
+	list-style: none;
+}
+
+#prestashop{
+
+	width: 80px;
+	height: auto;
+}
+
+#wordpress{
+
+	width: 55px;
+	height: auto;
+}
+
+.code img {
+	width: 60px;
+	height: auto;
+	float: left;
+	padding-left: 70px;
+
+}
+
+.code li{
+
+	list-style: none;
+}
+
+.code-titre {
+
+	margin-top: 150px;
+}
+
+.code {
+
+	margin-bottom:150px;
+}
+
+.outils {
+
+	padding-left: 15px;
+}

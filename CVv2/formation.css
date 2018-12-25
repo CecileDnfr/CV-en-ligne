@@ -1,0 +1,264 @@
+h1{
+	font-family: 'Petit Formal Script', cursive;
+	text-align: center;
+	font-size:100px;
+
+}
+
+h2, p, li{
+	font-family: 'Comfortaa', cursive;
+	font-weight: normal;
+}
+
+li{
+
+	line-height: 45px;
+}
+
+.cesemed{   
+    opacity:0;
+    -moz-animation: anim 3s linear forwards 2s;
+    -webkit-animation: anim 3s linear forwards 2s;
+    -o-animation: anim 3s linear forwards 2s;
+    -ms-animation: anim 3s linear forwards 2s;
+    animation: anim 3s linear forwards 2s;
+
+}
+
+.master{
+	opacity:0;
+    -moz-animation: anim 1s linear forwards  0.6s;
+    -webkit-animation: anim 1s linear forwards  0.6s;
+    -o-animation: anim 1s linear forwards 0.6s;
+    -ms-animation: anim 1s linear forwards   0.6s;
+    animation: anim 1s linear forwards   0.6s;
+
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+.footer, .header {
+	border:1px solid black;
+	max-width: 100%;
+	border-left: none;
+	border-right: none;
+	background-image: url("images/pipes.png");
+
+}
+
+.contacts{
+	display:flex;
+	justify-content: space-around;
+	color:black;
+	letter-spacing: 2px;
+	font-family: 'Comfortaa', cursive;
+
+
+}
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+.header{
+
+	height:180px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+
+}
+
+ #unisa{
+
+	width: 100px;
+	height: auto;
+
+}
+
+ #kedge{
+ 	width: 160px;
+ 	height:auto;
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
+
+ #danemark, #sdu{
+
+ 	width:70px;
+ 	height: auto;
+ 	padding-left: 10px;
+ }
+
+ #paris {
+
+  	width: 50px;
+  	height:auto;
+  	padding-left: 10px;
+  }
+
+  #oncovia, #australie{
+  	width: 85px;
+  	height: auto;
+  	padding-left: 10px;
+  }
+
+  #evothink {
+
+	width: 120px;
+	height: auto;
+	padding-left: 10px;
+}
+
+ #spain {
+
+ 	width:60px;
+ 	height: auto;
+ 	padding-left: 15px;
+ }
+
+.paris li, .espagne li, .australie li, .cesemed li, .master li, .danemark li {
+
+	display:flex;
+	align-items: center;
+}
+
+.master {
+	padding-left: 40px;
+	padding-right: 0px;
+
+}
+
+.paris {
+
+	padding-left: 0px;
+}
+
+
+.langues img {
+height : 50px;
+width:auto;
+align-items: center;
+padding-top: 20px;
+}
+
+
+.langues li{
+	list-style: none;
+}
+
+.langues p{
+
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.anglais, .italien {
+
+	padding-left: 40px;
+}
+
+.italien h2, .francais h2, .anglais h2{
+
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.italien img, .francais img, .anglais img{
+	padding-left: 15px;
+
+}
+
+.italien{
+
+	padding-bottom: 50px;
+}
+
+
+
+#equitation {
+margin-left: 450px;
+
+}
+
+#muscu {
+	margin-top:100px;
+}
+
+#voyage{
+
+}
+
+.colonne1, .colonne2 {
+
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#musique{
+
+	padding-left: 130px;
+}
+
+#danse{
+
+	padding-right: 130px;
+}
+
+#livres{
+
+	padding-left: 600px;
+}
+li{
+
+		list-style: none;
+}
+
+.colonne1 h2{
+		font-family: 'Petit Formal Script', cursive;
+		letter-spacing: 7px;
+		font-size: 60px;
+}
+
+
+#voyage{
+	font-family: 'Petit Formal Script', cursive;
+		letter-spacing: 7px;
+		font-size: 60px;
+}
+
+.portfolio img {
+	width: 450px;
+	height: auto;
+	padding-left: 40px;
+
+
+}
+
+	img:hover, .portfolio:first-child img:hover  {
+	opacity:1;
+	 transform: scale(1.4);
+}
+
