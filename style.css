@@ -1,0 +1,176 @@
+h2{
+
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 7px;
+	text-align: center;
+	font-size: bolder;
+
+}
+
+
+h1{
+	font-family: 'Petit Formal Script', cursive;
+	text-align: center;
+	font-size:100px;
+
+}
+
+.caption p{
+
+	display: flex;
+	padding-left: 50px;
+	justify-content: space-around;
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 7px;
+	color:white;
+}
+
+li {
+	list-style: none;
+	font-family: 'Comfortaa', cursive;
+	float:left;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-right: 80px;
+}
+
+ul{
+
+	padding-left:80px;
+	padding-right: 0px;
+
+}
+
+.onglets{
+	margin-left:150px;
+  	margin-right: 150px;
+
+}
+
+
+
+.photo{
+	width: 80%;
+	height:auto;
+	opacity: 0.7;
+	 	padding-left:150.325px;
+  	padding-right: 150.325px;
+
+}
+
+
+
+.carre{
+
+	padding-left: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 1px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display:flex;
+	align-items: center;
+	text-align: center;
+ 	vertical-align: top;
+
+ 
+}
+.carre img{
+	border:1px solid black;
+	width : 280px;
+	height:280px;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	display:flex;
+	align-items: center;
+
+}
+.thumbnail {
+    position: relative;
+    display: flex;
+	float:left;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+.thumbnail:first-child:hover img {
+	opacity:0.5;
+}
+
+li:hover img {
+	opacity:0.5;
+}
+li img:hover, .thumbnail:first-child img:hover  {
+	opacity:0.5;
+}
+
+li:hover {
+	opacity:0.5;
+}
+li:hover, .onglets:first-child li:hover  {
+	opacity:0.5;
+}
+
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+
+#disponible{
+	margin-bottom: 100px;
+}
+
+#contact{
+	margin-top: 30px;
+
+
+}
+
+
+.far {
+
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+.contacts{
+	display:flex;
+	justify-content: space-around;
+	color:black;
+	letter-spacing: 2px;
+	font-family: 'Comfortaa', cursive;
+
+
+}
+
+.footer, .header {
+	border:1px solid black;
+	max-width: 100%;
+	border-left: none;
+	border-right: none;
+	background-image: url("images/pipes.png");
+
+}
+
+.header{
+
+	height:180px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+
+}
+
+a{
+	text-decoration: none;
+
+}
